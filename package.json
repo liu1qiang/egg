@@ -1,0 +1,28 @@
+{
+  "name": "egg-example",
+  "version": "1.0.0",
+  "description": "eggTest",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev"
+  },
+  "keywords": [
+    "lq"
+  ],
+  "author": "liuqiang",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.1",
+    "egg": "^2.12.0",
+    "egg-mysql": "^3.0.0",
+    "egg-security": "^2.4.0",
+    "egg-sequelize": "^4.1.0",
+    "egg-view": "^2.1.0",
+    "egg-view-ejs": "^2.0.0",
+    "egg-view-nunjucks": "^2.2.0",
+    "ejs": "^2.6.1"
+  },
+  "devDependencies": {
+    "egg-bin": "^4.9.0"
+  }
+}

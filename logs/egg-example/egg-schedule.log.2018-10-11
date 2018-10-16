@@ -1,0 +1,12 @@
+2018-10-11 17:04:40,378 INFO 2348 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-10-12 00:00:00.000
+2018-10-11 17:04:40,379 INFO 2348 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-12 00:00:01.000
+2018-10-12 00:00:00,332 INFO 22896 [15392736003282988200872431650] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-10-12 00:00:00,335 INFO 22896 [15392736003282988200872431650] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-10-12 00:00:00,348 INFO 22896 [15392736003282988200872431650] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 11ms
+2018-10-12 00:00:00,329 INFO 2348 [15392736003282988200872431650] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-10-12 00:00:00,341 INFO 2348 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-10-13 00:00:00.000
+2018-10-12 00:00:01,326 INFO 2348 [15392736013262988201869527643] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-10-12 00:00:01,337 INFO 2348 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-13 00:00:01.000
+2018-10-12 00:00:01,327 INFO 22896 [15392736013262988201869527643] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-10-12 00:00:01,328 INFO 22896 [15392736013262988201869527643] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-10-12 00:00:01,375 INFO 22896 [15392736013262988201869527643] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 48ms

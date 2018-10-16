@@ -1,0 +1,677 @@
+2018-10-12 10:35:24,555 ERROR 23768 [-/127.0.0.1/-/4ms GET /] 测试错输
+2018-10-12 10:36:52,376 ERROR 23768 [-/127.0.0.1/-/1ms GET /] 测试错输
+2018-10-12 10:37:25,034 ERROR 16152 [-/127.0.0.1/-/15ms GET /] nodejs.ReferenceError: ctx is not defined
+    at HomeController.index (D:\egg-test\app\controller\home.js:5:8)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 16152
+hostname: pgos
+
+2018-10-12 10:37:42,690 ERROR 5352 [-/127.0.0.1/-/8ms GET /] 测试错输
+2018-10-12 10:45:15,461 ERROR 5580 [-/127.0.0.1/-/13ms GET /] 测试错输
+2018-10-12 10:45:17,221 ERROR 5580 [-/127.0.0.1/-/2ms GET /] 测试错输
+2018-10-12 11:39:27,834 ERROR 7272 [-/127.0.0.1/-/29ms POST /index3] nodejs.TypeError: Cannot read property 'request' of undefined
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:15:31)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7272
+hostname: pgos
+
+2018-10-12 11:47:42,222 ERROR 17844 [-/127.0.0.1/-/49ms POST /index3] nodejs.TypeError: Cannot read property 'a' of undefined
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:16:88)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 17844
+hostname: pgos
+
+2018-10-12 13:33:34,155 ERROR 7172 [-/127.0.0.1/-/46ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7172
+hostname: pgos
+
+2018-10-12 13:34:08,833 ERROR 22320 [-/127.0.0.1/-/49ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 22320
+hostname: pgos
+
+2018-10-12 13:35:06,813 ERROR 6524 [-/127.0.0.1/-/43ms POST /index3] nodejs.ReferenceError: app is not defined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:20)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6524
+hostname: pgos
+
+2018-10-12 13:36:05,448 ERROR 19464 [-/127.0.0.1/-/17ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19464
+hostname: pgos
+
+2018-10-12 13:36:17,294 ERROR 4252 [-/127.0.0.1/-/39ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 4252
+hostname: pgos
+
+2018-10-12 13:36:56,293 ERROR 17472 [-/127.0.0.1/-/32ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17472
+hostname: pgos
+
+2018-10-12 13:37:36,247 ERROR 24308 [-/127.0.0.1/-/18ms POST /index3] nodejs.TypeError: Cannot read property 'client' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 24308
+hostname: pgos
+
+2018-10-12 13:41:26,176 ERROR 9088 [-/127.0.0.1/-/36ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:39)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9088
+hostname: pgos
+
+2018-10-12 13:41:42,443 ERROR 25076 [-/127.0.0.1/-/45ms POST /index3] nodejs.ReferenceError: app is not defined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:18)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 25076
+hostname: pgos
+
+2018-10-12 13:42:28,864 ERROR 19332 [-/127.0.0.1/-/34ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:39)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19332
+hostname: pgos
+
+2018-10-12 13:43:52,323 ERROR 8504 [-/127.0.0.1/-/33ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8504
+hostname: pgos
+
+2018-10-12 13:44:38,985 ERROR 14600 [-/127.0.0.1/-/54ms POST /index3] nodejs.ReferenceError: app is not defined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:20)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14600
+hostname: pgos
+
+2018-10-12 13:44:58,989 ERROR 22408 [-/127.0.0.1/-/15ms POST /index3] nodejs.ReferenceError: app is not defined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:20)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 22408
+hostname: pgos
+
+2018-10-12 13:45:49,069 ERROR 20764 [-/127.0.0.1/-/48ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 20764
+hostname: pgos
+
+2018-10-12 13:48:13,477 ERROR 14660 [-/127.0.0.1/-/32ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 14660
+hostname: pgos
+
+2018-10-12 13:48:27,830 ERROR 19392 [-/127.0.0.1/-/15ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 19392
+hostname: pgos
+
+2018-10-12 13:49:12,567 ERROR 2308 [-/127.0.0.1/-/18ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 2308
+hostname: pgos
+
+2018-10-12 14:00:51,448 ERROR 9236 [-/127.0.0.1/-/39ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9236
+hostname: pgos
+
+2018-10-12 14:03:10,625 ERROR 20380 [-/127.0.0.1/-/40ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 20380
+hostname: pgos
+
+2018-10-12 14:08:24,123 ERROR 15296 [-/127.0.0.1/-/19ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:41)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15296
+hostname: pgos
+
+2018-10-12 14:14:16,483 ERROR 17500 [-/127.0.0.1/-/47ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17500
+hostname: pgos
+
+2018-10-12 14:18:23,113 ERROR 9380 [-/127.0.0.1/-/23ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9380
+hostname: pgos
+
+2018-10-12 14:18:35,560 ERROR 15276 [-/127.0.0.1/-/66ms POST /index3] nodejs.TypeError: Cannot read property 'get' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15276
+hostname: pgos
+
+2018-10-12 14:20:43,314 ERROR 8880 [-/127.0.0.1/-/17ms POST /index3] nodejs.TypeError: Cannot read property 'index_service' of undefined
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:16:55)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 8880
+hostname: pgos
+
+2018-10-12 14:21:39,124 ERROR 16988 [-/127.0.0.1/-/20ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16988
+hostname: pgos
+
+2018-10-12 14:25:34,002 ERROR 12020 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12020
+hostname: pgos
+
+2018-10-12 14:25:44,426 ERROR 25308 [-/127.0.0.1/-/28ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 25308
+hostname: pgos
+
+2018-10-12 14:29:08,942 ERROR 12020 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 12020
+hostname: pgos
+
+2018-10-12 14:29:33,987 ERROR 20904 [-/127.0.0.1/-/33ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 20904
+hostname: pgos
+
+2018-10-12 14:34:37,197 ERROR 25076 [-/127.0.0.1/-/33ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 25076
+hostname: pgos
+
+2018-10-12 14:34:51,693 ERROR 15656 [-/127.0.0.1/-/24ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15656
+hostname: pgos
+
+2018-10-12 14:45:29,164 ERROR 6252 [-/127.0.0.1/-/102ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6252
+hostname: pgos
+
+2018-10-12 14:46:36,472 ERROR 5868 [-/127.0.0.1/-/51ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 5868
+hostname: pgos
+
+2018-10-12 14:46:56,372 ERROR 16972 [-/127.0.0.1/-/38ms POST /index3] nodejs.TypeError: this.app.config.mysql.select is not a function
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:48)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 16972
+hostname: pgos
+
+2018-10-12 14:53:37,061 ERROR 15828 [-/127.0.0.1/-/41ms POST /index3] nodejs.TypeError: Cannot read property 'select' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:8:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 15828
+hostname: pgos
+
+2018-10-12 14:57:18,894 ERROR 23212 [-/127.0.0.1/-/44ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 23212
+hostname: pgos
+
+2018-10-12 14:59:37,382 ERROR 11880 [-/127.0.0.1/-/36ms POST /index3] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11880
+hostname: pgos
+
+2018-10-12 15:09:01,867 ERROR 12960 [-/127.0.0.1/-/16ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:9:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12960
+hostname: pgos
+
+2018-10-12 15:11:18,713 ERROR 20148 [-/127.0.0.1/-/51ms POST /index3] nodejs.TypeError: Cannot read property 'query' of undefined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:10:41)
+    at HomeController.index3 (D:\egg-test\app\controller\home.js:17:48)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 20148
+hostname: pgos
+
+2018-10-12 15:26:10,316 ERROR 12856 [-/127.0.0.1/-/52ms POST /index3] nodejs.ReferenceError: users is not defined
+    at homeService.index_sql (D:\egg-test\app\service\home.js:14:9)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12856
+hostname: pgos
+
+2018-10-15 10:58:34,830 ERROR 9988 [-/127.0.0.1/-/31ms POST /index4] nodejs.ReferenceError: g is not defined
+    at HomeController.index4 (D:\egg-test\app\controller\home.js:27:45)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\egg-test\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\egg-test\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\egg-test\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9988
+hostname: pgos
+
+2018-10-15 10:58:56,574 ERROR 20232 [-/127.0.0.1/-/34ms POST /index4] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (D:\egg-test\node_modules\koa\lib\application.js:239:15)
+    at handleResponse (D:\egg-test\node_modules\koa\lib\application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 20232
+hostname: pgos
+
+2018-10-15 10:59:57,595 ERROR 21368 [-/127.0.0.1/-/37ms POST /index4] nodejs.TypeError: Converting circular structure to JSON
+    at JSON.stringify (<anonymous>)
+    at respond (D:\egg-test\node_modules\koa\lib\application.js:239:15)
+    at handleResponse (D:\egg-test\node_modules\koa\lib\application.js:149:34)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 21368
+hostname: pgos
+
+2018-10-15 14:15:14,395 ERROR 18196 [-/127.0.0.1/-/15ms GET /] 测试错输
+2018-10-15 14:16:28,534 ERROR 23544 [-/127.0.0.1/-/10ms GET /] 测试错输
+2018-10-15 14:17:53,962 ERROR 8912 [-/127.0.0.1/-/26ms GET /] 测试错输
+2018-10-15 14:19:18,194 ERROR 12864 [-/127.0.0.1/-/7ms GET /] 测试错输
+2018-10-15 14:40:40,688 ERROR 7292 [-/127.0.0.1/-/20ms GET /] nodejs.TypeError: Cannot read property 'service' of undefined
+    at testmid (D:\egg-test\app\middleware\testmid.js:5:37)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\egg-test\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\egg-test\node_modules\koa-compose\index.js:42:32)
+    at D:\egg-test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\egg-test\node_modules\koa-compose\index.js:42:32)
+
+pid: 7292
+hostname: pgos
+
+2018-10-15 14:41:26,092 ERROR 12588 [-/127.0.0.1/-/45ms GET /] 测试错输
+2018-10-15 14:42:52,191 ERROR 16240 [-/127.0.0.1/-/4ms GET /] 测试错输
+2018-10-15 14:43:56,904 ERROR 1088 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot set property 'get_db' of undefined
+    at testmid (D:\egg-test\app\middleware\testmid.js:10:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1088
+hostname: pgos
+
+2018-10-15 14:44:33,217 ERROR 15884 [-/127.0.0.1/-/31ms GET /] 测试错输
+2018-10-15 14:44:45,575 ERROR 15884 [-/127.0.0.1/-/13ms GET /] 测试错输
+2018-10-15 14:45:29,083 ERROR 17040 [-/127.0.0.1/-/46ms POST /index4] nodejs.ReferenceError: db is not defined
+    at HomeController.index4 (D:\egg-test\app\controller\home.js:28:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17040
+hostname: pgos
+
+2018-10-15 14:45:30,646 ERROR 17040 [-/127.0.0.1/-/8ms POST /index4] nodejs.ReferenceError: db is not defined
+    at HomeController.index4 (D:\egg-test\app\controller\home.js:28:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 17040
+hostname: pgos
+
+2018-10-15 14:46:11,285 ERROR 23820 [-/127.0.0.1/-/47ms POST /index4] nodejs.ReferenceError: db is not defined
+    at HomeController.index4 (D:\egg-test\app\controller\home.js:28:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 23820
+hostname: pgos
+
+2018-10-15 15:20:09,741 ERROR 24836 [-/127.0.0.1/-/23ms POST /index4] nodejs.TypeError: ctx.service.home.index_randomdb is not a function
+    at getdbconname (D:\egg-test\app\middleware\getdbconname.js:10:45)
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\egg-test\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\egg-test\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\egg-test\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\egg-test\node_modules\koa-compose\index.js:42:32)
+    at D:\egg-test\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (D:\egg-test\node_modules\koa-compose\index.js:42:32)
+
+pid: 24836
+hostname: pgos
+
+2018-10-15 16:34:12,797 ERROR 19268 nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "ejs"
+    at ContextView.[contextView#getViewEngine] (D:\egg-test\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\egg-test\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 19268
+hostname: pgos
+
+2018-10-15 16:37:15,376 ERROR 8408 nodejs.AssertionError [ERR_ASSERTION]: Can't find ViewEngine "Ejs"
+    at ContextView.[contextView#getViewEngine] (D:\egg-test\node_modules\egg-view\lib\context_view.js:88:5)
+    at ContextView.[contextView#render] (D:\egg-test\node_modules\egg-view\lib\context_view.js:69:39)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 8408
+hostname: pgos
+
+2018-10-15 16:37:32,552 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:37:33,146 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:37:33,365 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:37:33,537 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:37:33,728 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:37:33,875 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:37:34,025 ERROR 22656 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 22656
+hostname: pgos
+
+2018-10-15 16:41:39,050 ERROR 10804 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10804
+hostname: pgos
+
+2018-10-15 16:41:40,019 ERROR 10804 nodejs.AssertionError [ERR_ASSERTION]: Can't find test from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 10804
+hostname: pgos
+
+2018-10-15 16:43:13,046 ERROR 15356 nodejs.AssertionError [ERR_ASSERTION]: Can't find ../app/view/test.ejs from D:\egg-test\app\view
+    at Map.resolve (D:\egg-test\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 15356
+hostname: pgos
+
+2018-10-15 16:47:42,413 ERROR 14588 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: "ECONNRESET"
+errno: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 14588
+hostname: pgos
+

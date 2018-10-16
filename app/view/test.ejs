@@ -1,0 +1,49 @@
+ 
+<table border="1"> 
+    <thead>
+            <th>date</th>
+            <th>text</th>
+            <th>number</th>
+            <th>amo</th>
+    </thead>				
+    <tbody>						
+        <% for(var i=0;i<resultList.length;i++){%>
+            <tr>
+            <td><%= resultList[i].date%></td>
+            <td><%= resultList[i].mess+'_'+resultList[i].data.name%></td>
+            <td><%= resultList[i].count+resultList[i].data.age%></td>
+                <td><%= resultList[i].amout%></td>
+            </tr>
+        <%}%>	
+    </tbody>	
+</table>
+<table  border="1">	
+<thead>
+    <tr>
+        <td>time</td>
+        <% for(var i=0;i<resultList.length;i++){%>
+            <td><%= resultList[i].date%></td>
+        <%}%>
+        </tr>
+</thead>			
+    <tbody>						
+        <tr>
+        <td>text</td>
+        <% for(var i=0;i<resultList.length;i++){%>
+            <td><%= resultList[i].mess+'_'+resultList[i].data.name%></td>
+        <%}%>
+        </tr>
+        <tr>
+        <td>number</td>
+        <% for(var i=0;i<resultList.length;i++){%>
+            <td><%= resultList[i].count+resultList[i].data.age%></td>
+        <%}%>
+        </tr>
+        <tr>
+        <td>amo</td>
+        <% for(var i=0;i<resultList.length;i++){%>
+            <td><%= resultList[i].amout%></td>
+        <%}%>
+        </tr>
+    </tbody>	
+</table>
