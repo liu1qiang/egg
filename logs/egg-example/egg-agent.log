@@ -2503,3 +2503,13 @@
 2018-10-15 17:24:57,390 INFO 14588 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"D:\\egg-test\\config\\config.default.js","stat":{"dev":2796051846,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":281474976987602,"size":0,"atimeMs":1539248635894.732,"mtimeMs":1539595497387.309,"ctimeMs":1539595497387.309,"birthtimeMs":1539248635894.732,"atime":"2018-10-11T09:03:55.895Z","mtime":"2018-10-15T09:24:57.387Z","ctime":"2018-10-15T09:24:57.387Z","birthtime":"2018-10-11T09:03:55.895Z"},"remove":false,"isDirectory":false,"isFile":true}
 2018-10-15 17:24:57,400 INFO 14588 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"D:\\egg-test\\config\\config.default.js","stat":{"dev":2796051846,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":281474976987602,"size":1372,"atimeMs":1539248635894.732,"mtimeMs":1539595497399.3098,"ctimeMs":1539595497399.3098,"birthtimeMs":1539248635894.732,"atime":"2018-10-11T09:03:55.895Z","mtime":"2018-10-15T09:24:57.399Z","ctime":"2018-10-15T09:24:57.399Z","birthtime":"2018-10-11T09:03:55.895Z"},"remove":false,"isDirectory":false,"isFile":true}
 2018-10-15 17:24:58,636 WARN 14588 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-10-17 10:50:58,941 INFO 5332 [egg:logger] init all loggers with options: {"dir":"D:\\githubproj\\egg\\egg\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-10-17 10:50:59,109 INFO 5332 [egg:core] dump config after load, 7ms
+2018-10-17 10:50:59,151 INFO 5332 [egg-watcher] Start watching: ["D:\\githubproj\\egg\\egg\\app","D:\\githubproj\\egg\\egg\\config","D:\\githubproj\\egg\\egg\\mocks","D:\\githubproj\\egg\\egg\\mocks_proxy","D:\\githubproj\\egg\\egg\\app.js"]
+2018-10-17 10:50:59,151 INFO 5332 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\app"
+2018-10-17 10:50:59,151 INFO 5332 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\config"
+2018-10-17 10:50:59,152 INFO 5332 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\mocks"
+2018-10-17 10:50:59,152 INFO 5332 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\mocks_proxy"
+2018-10-17 10:50:59,152 INFO 5332 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\app.js"
+2018-10-17 10:50:59,152 INFO 5332 [egg-watcher:agent] watcher start success
+2018-10-17 10:50:59,329 INFO 5332 [egg:core] dump config after ready, 23ms

@@ -6440,3 +6440,18 @@
 2018-10-15 17:24:58,609 INFO 19760 [egg-mysql] instance[0] status OK, rds currentTime: Mon Oct 15 2018 17:24:44 GMT+0800 (中国标准时间)
 2018-10-15 17:24:58,610 INFO 19760 [egg-mysql] instance[1] status OK, rds currentTime: Mon Oct 15 2018 17:26:37 GMT+0800 (中国标准时间)
 2018-10-15 17:24:58,623 INFO 19760 [egg:core] dump config after ready, 12ms
+2018-10-17 10:51:00,207 INFO 18032 [egg:logger] init all loggers with options: {"dir":"D:\\githubproj\\egg\\egg\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-10-17 10:51:00,242 INFO 18032 [egg-schedule]: register schedule D:\githubproj\egg\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-10-17 10:51:00,242 INFO 18032 [egg-schedule]: register schedule D:\githubproj\egg\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-10-17 10:51:00,242 INFO 18032 [egg-multipart] stream mode enable
+2018-10-17 10:51:00,243 INFO 18032 [egg-mysql] connecting root@your host:3306/your db
+2018-10-17 10:51:00,328 INFO 18032 [egg-mysql] connecting root@your host:3306/your db
+2018-10-17 10:51:00,408 INFO 18032 [egg-static] starting static serve /public/ -> D:\githubproj\egg\egg\app\public
+2018-10-17 10:51:00,410 INFO 18032 [egg-security] use methodnoallow middleware
+2018-10-17 10:51:00,411 INFO 18032 [egg-security] use noopen middleware
+2018-10-17 10:51:00,411 INFO 18032 [egg-security] use nosniff middleware
+2018-10-17 10:51:00,412 INFO 18032 [egg-security] use xssProtection middleware
+2018-10-17 10:51:00,412 INFO 18032 [egg-security] use dta middleware
+2018-10-17 10:51:00,412 INFO 18032 [egg-security] compose 5 middlewares into one security middleware
+2018-10-17 10:51:00,428 INFO 18032 [egg:core] dump config after load, 11ms
+2018-10-17 10:51:00,466 INFO 18032 [egg-watcher:application] watcher start success

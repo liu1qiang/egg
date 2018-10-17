@@ -3,10 +3,13 @@ class HomeController extends Controller {
 
     async index() {
         this.ctx.logger.error("测试错输")
+        
         this.ctx.body = 'Hello world';
     };
     async index2() {
         console.log(this.ctx.query)
+        var date = "2018-05-12 12:23:45"
+        console.log(new Date(date))
         this.ctx.body = { "a": 123, "b": 456 }
     };
     async index3() {

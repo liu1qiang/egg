@@ -75,27 +75,27 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "D:\\egg-test\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "D:\\githubproj\\egg\\egg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\egg-test\\node_modules\\egg-session\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-security\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-development\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-static\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-view\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-mysql\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg-view-ejs\\config\\locales",
-        "D:\\egg-test\\node_modules\\egg\\config\\locales",
-        "D:\\egg-test\\config\\locales"
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-session\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-security\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-development\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-static\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-view\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-mysql\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg-view-ejs\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\locales",
+        "D:\\githubproj\\egg\\egg\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -105,14 +105,14 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\egg-test\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\egg-test\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\githubproj\\egg\\egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\githubproj\\egg\\egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\egg-test\\logs\\egg-example\\egg-schedule.log"
+        "file": "D:\\githubproj\\egg\\egg\\logs\\egg-example\\egg-schedule.log"
       }
     },
     "multipart": {
@@ -149,7 +149,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\egg-test\\app\\public",
+      "dir": "D:\\githubproj\\egg\\egg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -158,7 +158,7 @@
     },
     "view": {
       "root": [
-        "D:\\egg-test\\app\\view"
+        "D:\\githubproj\\egg\\egg\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -178,19 +178,19 @@
       "agent": false,
       "clients": {
         "db1": {
-          "host": "192.168.1.234",
-          "password": "<String len: 5>",
-          "database": "d2g_log_v2"
+          "host": "your host",
+          "password": "<String len: 8>",
+          "database": "your db"
         },
         "db2": {
-          "host": "192.168.1.8",
-          "password": "<String len: 6>",
-          "database": "d2g_log_v2"
+          "host": "your host",
+          "password": "<String len: 8>",
+          "database": "your db"
         }
       }
     },
     "ejs": {
-      "root": "D:\\egg-test\\app\\view",
+      "root": "D:\\githubproj\\egg\\egg\\app\\view",
       "cache": false,
       "debug": false,
       "compileDebug": true,
@@ -232,9 +232,9 @@
         "egg-bin": "^4.9.0"
       }
     },
-    "baseDir": "D:\\egg-test",
+    "baseDir": "D:\\githubproj\\egg\\egg",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "D:\\egg-test\\run",
+    "rundir": "D:\\githubproj\\egg\\egg\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -265,7 +265,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\egg-test\\logs\\egg-example",
+      "dir": "D:\\githubproj\\egg\\egg\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -357,8 +357,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-session",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -370,8 +370,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-security",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-security",
       "version": "2.4.0"
     },
     "jsonp": {
@@ -383,8 +383,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-jsonp",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -396,8 +396,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-onerror",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -407,8 +407,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-i18n",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -418,8 +418,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-watcher",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -429,8 +429,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-schedule",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-schedule",
       "version": "3.4.0"
     },
     "multipart": {
@@ -442,8 +442,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-multipart",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-multipart",
       "version": "2.2.1"
     },
     "development": {
@@ -457,8 +457,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-development",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-development",
       "version": "2.4.1"
     },
     "logrotator": {
@@ -470,8 +470,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-logrotator",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -481,8 +481,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-static",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -492,8 +492,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-view",
+      "from": "D:\\githubproj\\egg\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "mysql": {
@@ -503,8 +503,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-mysql",
+      "from": "D:\\githubproj\\egg\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "ejs": {
@@ -516,8 +516,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\egg-test\\config\\plugin.js",
-      "path": "D:\\egg-test\\node_modules\\egg-view-ejs",
+      "from": "D:\\githubproj\\egg\\egg\\config\\plugin.js",
+      "path": "D:\\githubproj\\egg\\egg\\node_modules\\egg-view-ejs",
       "version": "2.0.0"
     }
   }

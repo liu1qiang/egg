@@ -5,11 +5,11 @@ module.exports = appInfo => {
     //单源
     // config.mysql = {
     //     client: {
-    //         host: '192.168.1.234',
+    //         host: 'your host',
     //         port: 3306,
     //         user: 'root',
-    //         password: 'd2eam',
-    //         database: 'mysql'
+    //         password: 'your pwd',
+    //         database: 'your db'
     //     },
     //     app: true,
     //     agent: false,
