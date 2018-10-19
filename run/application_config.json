@@ -178,14 +178,14 @@
       "agent": false,
       "clients": {
         "db1": {
-          "host": "your host",
-          "password": "<String len: 8>",
-          "database": "your db"
+          "host": "192.168.1.234",
+          "password": "<String len: 5>",
+          "database": "mysql"
         },
         "db2": {
-          "host": "your host",
-          "password": "<String len: 8>",
-          "database": "your db"
+          "host": "192.168.1.8",
+          "password": "<String len: 6>",
+          "database": "mysql"
         }
       }
     },

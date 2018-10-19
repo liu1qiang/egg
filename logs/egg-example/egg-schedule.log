@@ -32,3 +32,5 @@
 2018-10-15 14:14:14,269 INFO 23716 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-16 00:00:01.000
 2018-10-15 15:34:16,527 INFO 14588 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-10-16 00:00:00.000
 2018-10-15 15:34:16,528 INFO 14588 [Timer] D:\egg-test\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-16 00:00:01.000
+2018-10-19 11:39:51,950 INFO 11296 [Timer] D:\githubproj\egg\egg\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-10-20 00:00:00.000
+2018-10-19 11:39:51,951 INFO 11296 [Timer] D:\githubproj\egg\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-10-20 00:00:01.000

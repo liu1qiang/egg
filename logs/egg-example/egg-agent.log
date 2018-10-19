@@ -2513,3 +2513,13 @@
 2018-10-17 10:50:59,152 INFO 5332 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\app.js"
 2018-10-17 10:50:59,152 INFO 5332 [egg-watcher:agent] watcher start success
 2018-10-17 10:50:59,329 INFO 5332 [egg:core] dump config after ready, 23ms
+2018-10-19 11:39:50,514 INFO 11296 [egg:logger] init all loggers with options: {"dir":"D:\\githubproj\\egg\\egg\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2018-10-19 11:39:50,672 INFO 11296 [egg:core] dump config after load, 5ms
+2018-10-19 11:39:50,714 INFO 11296 [egg-watcher] Start watching: ["D:\\githubproj\\egg\\egg\\app","D:\\githubproj\\egg\\egg\\config","D:\\githubproj\\egg\\egg\\mocks","D:\\githubproj\\egg\\egg\\mocks_proxy","D:\\githubproj\\egg\\egg\\app.js"]
+2018-10-19 11:39:50,714 INFO 11296 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\app"
+2018-10-19 11:39:50,714 INFO 11296 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\config"
+2018-10-19 11:39:50,714 INFO 11296 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\mocks"
+2018-10-19 11:39:50,715 INFO 11296 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\mocks_proxy"
+2018-10-19 11:39:50,715 INFO 11296 [egg-watcher] Start watching: "D:\\githubproj\\egg\\egg\\app.js"
+2018-10-19 11:39:50,715 INFO 11296 [egg-watcher:agent] watcher start success
+2018-10-19 11:39:50,730 INFO 11296 [egg:core] dump config after ready, 9ms

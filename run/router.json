@@ -9,6 +9,7 @@
     "path": "/",
     "regexp": "/^(?:\\/(?=$))?$/",
     "stack": [
+      "getdbconname",
       "wrappedController"
     ]
   },

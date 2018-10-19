@@ -3,7 +3,7 @@ class HomeController extends Controller {
 
     async index() {
         this.ctx.logger.error("测试错输")
-        
+        console.log(this.ctx.body);
         this.ctx.body = 'Hello world';
     };
     async index2() {

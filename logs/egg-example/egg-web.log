@@ -6455,3 +6455,21 @@
 2018-10-17 10:51:00,412 INFO 18032 [egg-security] compose 5 middlewares into one security middleware
 2018-10-17 10:51:00,428 INFO 18032 [egg:core] dump config after load, 11ms
 2018-10-17 10:51:00,466 INFO 18032 [egg-watcher:application] watcher start success
+2018-10-19 11:39:51,677 INFO 3868 [egg:logger] init all loggers with options: {"dir":"D:\\githubproj\\egg\\egg\\logs\\egg-example","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-example-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-10-19 11:39:51,710 INFO 3868 [egg-schedule]: register schedule D:\githubproj\egg\egg\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-10-19 11:39:51,710 INFO 3868 [egg-schedule]: register schedule D:\githubproj\egg\egg\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-10-19 11:39:51,710 INFO 3868 [egg-multipart] stream mode enable
+2018-10-19 11:39:51,711 INFO 3868 [egg-mysql] connecting root@192.168.1.234:3306/mysql
+2018-10-19 11:39:51,775 INFO 3868 [egg-mysql] connecting root@192.168.1.8:3306/mysql
+2018-10-19 11:39:51,867 INFO 3868 [egg-static] starting static serve /public/ -> D:\githubproj\egg\egg\app\public
+2018-10-19 11:39:51,869 INFO 3868 [egg-security] use methodnoallow middleware
+2018-10-19 11:39:51,870 INFO 3868 [egg-security] use noopen middleware
+2018-10-19 11:39:51,871 INFO 3868 [egg-security] use nosniff middleware
+2018-10-19 11:39:51,874 INFO 3868 [egg-security] use xssProtection middleware
+2018-10-19 11:39:51,874 INFO 3868 [egg-security] use dta middleware
+2018-10-19 11:39:51,874 INFO 3868 [egg-security] compose 5 middlewares into one security middleware
+2018-10-19 11:39:51,886 INFO 3868 [egg:core] dump config after load, 8ms
+2018-10-19 11:39:51,926 INFO 3868 [egg-watcher:application] watcher start success
+2018-10-19 11:39:51,928 INFO 3868 [egg-mysql] instance[0] status OK, rds currentTime: Fri Oct 19 2018 11:39:41 GMT+0800 (中国标准时间)
+2018-10-19 11:39:51,928 INFO 3868 [egg-mysql] instance[1] status OK, rds currentTime: Fri Oct 19 2018 11:41:21 GMT+0800 (中国标准时间)
+2018-10-19 11:39:51,939 INFO 3868 [egg:core] dump config after ready, 9ms
