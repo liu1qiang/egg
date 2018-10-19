@@ -18,14 +18,14 @@ module.exports = appInfo => {
     config.mysql = {
         clients: {
             db1: {
-                host: '192.168.1.234',
-                password: 'd2eam',
-                database: 'mysql'
+                host: 'your host',
+                password: 'your pwd',
+                database: 'your db'
             },
             db2: {
-                host: '192.168.1.8',
-                password: 'qweqwe',
-                database: 'mysql'
+                host: 'your host',
+                password: 'your pwd',
+                database: 'your db'
             }
         },
         //每个db共用的配置
